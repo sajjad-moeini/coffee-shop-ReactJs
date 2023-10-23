@@ -1,0 +1,46 @@
+.home-booktable-box{
+       background-color: white;     
+}
+.home-booktable-box-title{
+       border-right: 3px solid #eae7de;
+       font-weight: 500;
+       padding: .5vh 1vw !important;
+}
+.home-booktable-box-icon{
+color: #c7a17a !important;
+padding: .5vh 1vw !important;
+}
+.home-booktable-box-options{
+top: 5vh;
+width: 100% !important;
+left: 0;
+height: 20vh !important;
+overflow-y: auto;
+background-color: #c7a17a !important;
+cursor: pointer !important;
+z-index: 2;
+}
+.home-booktable-box-option{
+color: white;
+}
+.home-booktable-box-option:hover{
+       background-color: #eae7de;
+       color: #c7a17a;
+}
+.gold-btn{
+       background-color: #c7a17a;
+       border: 0;
+       padding: 1vh 1vw;
+       border-radius: .6rem;
+       transition: all .5s;
+       font-weight: 500;
+}
+.gold-btn:hover{
+      background: black;
+}
+.rc_body-cell_value button{
+       color: #c7a17a !important;
+}
+.rc_body-weekdays_cell div{
+       color: #444;
+}
