@@ -1,0 +1,23 @@
+.homepage-our-application-section{
+       width: 100vw;
+       height: 85vh !important;
+       background: url(../../../public/images/home/home1-parallax-1.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+}
+.borderW30{
+       height: .5vh;
+       width: 30%;
+       background-color: aliceblue;
+}
+.homepage-our-application-section-btn{
+       background-color: #c7a17a;
+       border: 0;
+       padding: 1vh 1.5vw;
+       border-radius: .8rem;
+       transition: all .5s;
+}
+.homepage-our-application-section-btn:hover {
+       background-color: aliceblue !important;
+       color: #c7a17a !important;
+}

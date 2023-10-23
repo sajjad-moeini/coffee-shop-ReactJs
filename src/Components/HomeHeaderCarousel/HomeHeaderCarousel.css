@@ -6,24 +6,9 @@
      width: 100vw !important;
      height: 100vh !important;
      position: relative !important;
-       /* background: url(../../../public/images/home/home-1-slider-img-2.jpg) !important; */
        background-size: cover;
 }
-.svg-container{
-       height: 100%;
-       width: 100%;
-}
-.graph-svg{
-       position: absolute;
-       bottom: 0px;
-       width: 100%;
-       height: 27px;
-       background-image:transparent;
-     background-size:cover;
-     background-color:transparent !important;
-     fill:#eae7de !important;
-     stroke: #eae7de !important;
-}
+
 .header-video-container{
        position: absolute !important;
        top: 0 !important;

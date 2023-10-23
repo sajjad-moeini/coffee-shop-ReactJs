@@ -32,6 +32,12 @@ const store = {
               {title:'BEAUTIFUL PLACE',img:'images/home/h-1-img-1.jpg',text:'Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix atle.'},
               {title:'FEEL THE COFFEE',img:'images/home/h-1-img-2.jpg',text:'Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix atle.'},
               {title:'FULL TASTE',img:'images/home/h-1-img-3.jpg',text:'Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix atle.'},
+       ],
+       coffeeTools:[
+              {img:"images/home/home-1-icon-img-1.png",title:'COFFEEMAKER'},
+              {img:"images/home/home-1-icon-img-2.png",title:'COFFEE GRINDER'},
+              {img:"images/home/home-1-icon-img-3.png",title:'COFFEE CUPS'},
+              {img:"images/home/home-1-icon-img-4.png",title:'ESPRESSO MACHINE'}
        ]
 }
 
