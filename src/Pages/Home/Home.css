@@ -54,3 +54,14 @@ transform: translateX(1vw) !important;
        background-color: aliceblue;
        color: #07609f !important;
 }
+.home-pic-layout{
+       width: 100%;
+       height: 100%;
+       top: 100%;
+       transition: all .4s;
+       background-color: rgba(0, 0, 0, 0.285);
+}
+.home-pics-wrapper:hover .home-pic-layout{
+       top: 0;
+}
+

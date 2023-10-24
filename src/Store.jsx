@@ -63,6 +63,11 @@ const store = {
               {img:'images/home/product-image-2.jpg',title:'PAPER BAG',fullStar:['','','',''],halfStar:[''],price:'98.00',sale:true,off:true,oofPrice:'79.00'},
               {img:'images/home/product-image-3.jpg',title:'PLASTIC POUCH',fullStar:['','','','',''],halfStar:[],price:'27.00',sale:false,off:false,},
               {img:'images/home/product-image-4.jpg',title:'COFFE POT',fullStar:['','','','',],halfStar:[],price:'71.00',sale:false,off:false,},
+       ],
+       homeLastNewItems:[
+              {img:"images/home/home-1-blog-f-img-1.jpg",title:"MAKE IT SIMPLE" ,date:"23.02.2016"},
+              {img:"images/home/home-1-blog-f-img-2.jpg",title:"COFFEE SHOP" ,date:"23.01.2017"},
+              {img:"images/home/home-1-blog-f-img-3.jpg",title:"COFFEE BAR" ,date:"17.07.2017"},
        ]
 }
 
