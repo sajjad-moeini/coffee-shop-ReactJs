@@ -10,18 +10,18 @@ export default function HeaderNav() {
 
        const [bgColor, setBgColor] = useState('')
        const [navItemColor, setNavItemColor] = useState('white')
-       const [navlogo, setNavLogo] = useState("images/home/logo-2.png")
+       const [navlogo, setNavLogo] = useState("images/home/logo.png")
        const [isShowSearchBar, setIsShowSearchBar] = useState(false)
        window.document.addEventListener('scroll', () => {
               if (window.scrollY > 0) {
                      setBgColor('white')
                      setNavItemColor('#000')
-                     setNavLogo("images/home/logo-1.png")
+                     setNavLogo("images/home/logo1.png")
 
               } else {
                      setBgColor('transparent')
                      setNavItemColor('#fff')
-                     setNavLogo("images/home/logo-2.png")
+                     setNavLogo("images/home/logo.png")
               }
        })
        return (
@@ -29,11 +29,11 @@ export default function HeaderNav() {
                      <Navbar fixed="top" className='header-nav-container' expand="lg" style={{ background: bgColor }} >
                             <div className="navbar-wrapper position-relative w-100 h-100 ">
                                    <Container className=' d-flex'>
+                                          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                          <Navbar.Collapse id="basic-navbar-nav">
                                           <Navbar.Brand href="#home">
                                                  <img src={navlogo} className='img-fluid logo' alt="" />
                                           </Navbar.Brand>
-                                          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                                          <Navbar.Collapse id="basic-navbar-nav">
                                                  <Nav className="ms-auto d-flex align-items-center justify-content-around w-75">
                                                         <NavLink to={'/'} style={{ color: navItemColor }} className={(item) => (item.isActive ? 'headerNav-item-active' : 'headerNav-item')}>Home</NavLink>
                                                         <NavLink to={'/menu'} style={{ color: navItemColor }} className={(item) => (item.isActive ? 'headerNav-item-active' : 'headerNav-item')}>Menu</NavLink>

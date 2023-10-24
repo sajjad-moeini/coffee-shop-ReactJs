@@ -6,6 +6,7 @@ import siteContext from './Context/Context'
 import './../node_modules/bootstrap/dist/css/bootstrap.css'
 import './css/font-awesome.css'
 import HeaderNav from './Components/HeaderNav/HeaderNav'
+import Footer from './Components/Footer/Footer'
 function App() {
   const router = useRoutes(Router)
 
@@ -14,6 +15,7 @@ function App() {
       <siteContext.Provider value={''}>
         <HeaderNav />
         {router}
+        <Footer />
       </siteContext.Provider>
     </>
   )

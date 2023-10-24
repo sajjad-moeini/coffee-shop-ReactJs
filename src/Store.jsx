@@ -68,7 +68,30 @@ const store = {
               {img:"images/home/home-1-blog-f-img-1.jpg",title:"MAKE IT SIMPLE" ,date:"23.02.2016"},
               {img:"images/home/home-1-blog-f-img-2.jpg",title:"COFFEE SHOP" ,date:"23.01.2017"},
               {img:"images/home/home-1-blog-f-img-3.jpg",title:"COFFEE BAR" ,date:"17.07.2017"},
-       ]
+       ],
+       footer:{
+              firstCol:{
+                     title:'OPENING HOURS',
+                     daysAndHours:[
+                            {title:"MONDAY" ,close:true , hourText:'CLOSED'},
+                            {title:"TUESDAY" ,close:false , hourText:'9:00 - 22:00'},
+                            {title:"WEDNESDAY" ,close:false , hourText:'9:00 - 22:00'},
+                            {title:"THURSDAY" ,close:false , hourText:'9:00 - 22:00'},
+                            {title:"FRIDAY *" ,close:false , hourText:'9:00 - 1:00'},
+                            {title:"SATURDAY *" ,close:false , hourText:'12:00 - 01:00'},
+                            {title:"SUNDAY" ,close:false , hourText:'9:00 - 22:00'},
+                     ]
+              },
+              secondCol:{
+                     title:'LATEST POSTS',
+                     items:[
+                            {title:"EXPAND YOUR MIND, CHANGE EVERYTHING"  , date:'14.02.2017'},
+                            {title:"PLACES TO GET LOST"  , date:'14.02.2017'},
+                            {title:"LEWIS HOWES"  , date:'14.02.2017'},
+                            {title:"ELEVATE YOUR EXPECTATIONS"  , date:'14.02.2017'},
+                     ]
+              }
+       }
 }
 
 export default store

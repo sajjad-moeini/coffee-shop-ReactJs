@@ -40,8 +40,12 @@ color: white;
       background: black !important;
  }
 .rc_body-cell_value button{
-       color: #c7a17a !important;
+       color: #fcfcfc !important;
 }
 .rc_body-weekdays_cell div{
        color: #444;
+}
+.rc_body{
+       background: #c7a17a !important;
+       z-index: 10;
 }
