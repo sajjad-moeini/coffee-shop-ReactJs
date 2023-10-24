@@ -1,0 +1,14 @@
+.logo{
+       width: 7vw;
+}
+.headerNav-item{
+       font-size: 1.2rem;
+       font-weight: 500;
+     
+}
+.headerNav-item-active{
+       color: #c7a17a !important;
+       font-size: 1.2rem;
+       font-weight: 500;
+       
+}
