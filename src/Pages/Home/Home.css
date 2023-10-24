@@ -44,7 +44,8 @@ transform: translateX(1vw) !important;
 }
 .home-barista-menu-btn{
        background-color: #c7a17a;
-       padding: 1.4vh 2vw;
+       padding: 1.6vh 2.2vw;
+       font-size: 1.3rem;
        border-radius: 1rem;
        font-weight: 500;
        transition: all .5s;

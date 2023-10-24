@@ -57,6 +57,12 @@ const store = {
               {img:'images/home/h-1-list-icon-img-10-150x150.jpg',title:'ICED CAFFE MOCHA',price:2.60,infos:'Espresso, bittersweet mocha sauce, milk and ice',new:false},
               {img:'images/home/h-1-list-icon-img-11-150x150.jpg',title:'VANILLA LATTE',price:3.65,infos:'Espresso Milk With Flavor,and Cream',new:false},
               {img:'images/home/h-1-list-icon-img-12-150x150.jpg',title:'ICED GINGERBREAD LATTE',price:3.92,infos:'Espresso, Milk, Ice, and Gingerbread Flavor',new:false},
+       ],
+       homeProducts:[
+              {img:'images/home/product-image-1.jpg',title:'PAPER POUCH',fullStar:['','',''],halfStar:[''],price:'46.00',sale:false,off:false,},
+              {img:'images/home/product-image-2.jpg',title:'PAPER BAG',fullStar:['','','',''],halfStar:[''],price:'98.00',sale:true,off:true,oofPrice:'79.00'},
+              {img:'images/home/product-image-3.jpg',title:'PLASTIC POUCH',fullStar:['','','','',''],halfStar:[],price:'27.00',sale:false,off:false,},
+              {img:'images/home/product-image-4.jpg',title:'COFFE POT',fullStar:['','','','',],halfStar:[],price:'71.00',sale:false,off:false,},
        ]
 }
 

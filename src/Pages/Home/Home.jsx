@@ -12,6 +12,7 @@ import HomeCoffeTools from '../../Components/HomeCoffeTools/HomeCoffeTools'
 import VerticalSwiper from '../../Components/VerticalSwiper/VerticalSwiper'
 import HomeMenuGerator from '../../Components/HomeMenuGerator/HomeMenuGerator';
 import { Link } from 'react-router-dom';
+import HomeProducts from '../../Components/HomeProducts/HomeProducts';
 
 
 
@@ -83,6 +84,10 @@ Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis i
     <Link className='home-barista-menu-btn text-light my-5' to={'/menu'}>View Menu</Link>
     </div> 
     </div>
+   </div>
+   <div className="home-products py-5">
+    <SectionTitle title={'COFFEE BUILD YOUR BASE.'} subTitle={'What Happens Here'} titleColor={'black'} />
+    <HomeProducts />
    </div>
    </>
   )
