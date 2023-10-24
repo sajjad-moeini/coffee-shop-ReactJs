@@ -21,3 +21,13 @@
        background-color: aliceblue !important;
        color: #c7a17a !important;
 }
+.best-coffee-inCity-infos{
+       background: url(../../../public//images/home/home-1-s-slider-1.jpg);
+       background-size: cover;
+}
+.best-coffee-inCity-btn-arrow{
+       transition: all .5s;
+}
+.best-coffee-inCity-btn:hover .best-coffee-inCity-btn-arrow{
+transform: translateX(1vw) !important;
+}

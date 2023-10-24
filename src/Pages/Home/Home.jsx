@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import HomeHeaderCarousel from '../../Components/HomeHeaderCarousel/HomeHeaderCarousel'
 import SectionTitle from '../../Components/SectionTitle/SectionTitle'
 import HomeBookTableBoxes from '../../Components/HomeBookTableBoxes/HomeBookTableBoxes'
 import BaristaProptiesBoxes from '../../Components/BaristaProptiesBoxes/BaristaProptiesBoxes'
 import SvgGen from '../../Components/SvgGen/SvgGen'
 import HomeCoffeTools from '../../Components/HomeCoffeTools/HomeCoffeTools'
+import VerticalSwiper from '../../Components/VerticalSwiper/VerticalSwiper'
+
+
+
+
 export default function Home() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
    <>
    <HomeHeaderCarousel />
@@ -43,6 +54,23 @@ export default function Home() {
     </div>
    </div>
    <HomeCoffeTools />
+   <div className="best-coffee-inCity-section w-75 mx-auto py-5 ">
+    <div className="row g-0 align-items-center">
+      <div className="col-12 col-md-6 best-coffee-inCity-infos d-flex flex-column justify-content-around p-5" data-aos="fade-right" data-aos-duration="1000">
+<div className="h1 text-light">
+TRY THE BEST COFFEE IN THE CITY
+</div>
+
+<p className=' text-light my-5'>
+Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an at dictum lacu pericula uni euripidis.
+</p>
+<a href="#" className='btn best-coffee-inCity-btn text-light me-auto' > Read More <i className='fa fa-arrow-right best-coffee-inCity-btn-arrow'></i></a>
+      </div>
+      <div className="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
+        <VerticalSwiper />
+      </div>
+    </div>
+   </div>
    </>
   )
 }

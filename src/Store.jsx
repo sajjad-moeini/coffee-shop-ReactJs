@@ -38,6 +38,11 @@ const store = {
               {img:"images/home/home-1-icon-img-2.png",title:'COFFEE GRINDER',aos:"zoom-in-down"},
               {img:"images/home/home-1-icon-img-3.png",title:'COFFEE CUPS',aos:"zoom-in-down"},
               {img:"images/home/home-1-icon-img-4.png",title:'ESPRESSO MACHINE',aos:"zoom-out-left"}
+       ],
+       homeVerticalSwiper:[
+              'images/home/main-home-project-pres-1.jpg',
+              'images/home/main-home-project-pres-2.jpg',
+              'images/home/main-home-project-pres-3.jpg',
        ]
 }
 
