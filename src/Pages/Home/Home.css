@@ -1,6 +1,7 @@
 .homepage-our-application-section{
        width: 100vw;
-       height: 85vh !important;
+       padding: 10vh 3vw;
+       /* height: 85vh !important; */
        background: url(../../../public/images/home/home1-parallax-1.jpg);
        background-size: cover;
        background-attachment: fixed;
@@ -30,4 +31,25 @@
 }
 .best-coffee-inCity-btn:hover .best-coffee-inCity-btn-arrow{
 transform: translateX(1vw) !important;
+}
+.home-barista-menu{
+       background: url(../../../public/images/home/home-1-slider-img-2.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100vw;
+}
+.home-barista-menu-wrapper{
+       background-color: #070707a1;
+       width: 100vw;
+}
+.home-barista-menu-btn{
+       background-color: #c7a17a;
+       padding: 1.4vh 2vw;
+       border-radius: 1rem;
+       font-weight: 500;
+       transition: all .5s;
+}
+.home-barista-menu-btn:hover{
+       background-color: aliceblue;
+       color: #07609f !important;
 }

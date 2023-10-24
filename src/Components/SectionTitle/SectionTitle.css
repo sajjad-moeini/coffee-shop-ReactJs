@@ -13,8 +13,8 @@ font-weight: 600;
 padding-bottom: 3vh;
 }
 .border{
-       width: 30%;
-       height: .8vh;
+       width: 15vw;
+       height: .5vh;
        background-color: #c7a17a;
        border-radius: 1rem;
 }

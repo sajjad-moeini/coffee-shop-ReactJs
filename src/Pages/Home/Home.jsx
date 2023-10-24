@@ -10,6 +10,8 @@ import BaristaProptiesBoxes from '../../Components/BaristaProptiesBoxes/BaristaP
 import SvgGen from '../../Components/SvgGen/SvgGen'
 import HomeCoffeTools from '../../Components/HomeCoffeTools/HomeCoffeTools'
 import VerticalSwiper from '../../Components/VerticalSwiper/VerticalSwiper'
+import HomeMenuGerator from '../../Components/HomeMenuGerator/HomeMenuGerator';
+import { Link } from 'react-router-dom';
 
 
 
@@ -69,6 +71,17 @@ Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis i
       <div className="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">
         <VerticalSwiper />
       </div>
+    </div>
+   </div>
+   <div className="home-barista-menu position-relative ">
+    <SvgGen pos={'buttom'} />
+    <SvgGen pos={'top'} />
+    <div className='home-barista-menu-wrapper w-100 h-100 py-5'>
+    <SectionTitle subTitle={'What Happens Here'} title={'FAVOURITE COFFEE FLAVOURS.'} titleColor={'white'} />
+    <HomeMenuGerator />
+   <div className='my-2 mx-auto d-flex-centering'>
+    <Link className='home-barista-menu-btn text-light my-5' to={'/menu'}>View Menu</Link>
+    </div> 
     </div>
    </div>
    </>
